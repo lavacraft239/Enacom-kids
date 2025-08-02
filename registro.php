@@ -60,6 +60,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <button type="submit">Registrarse</button>
 </form>
 
-<p>¿Ya tenés cuenta? <a href="login.php">Iniciar sesión</a></p>
+<p>¿Ya tenés cuenta? <a href="https://lavacraft.loca.lt/login.php">Iniciar sesión</a></p>
 </body>
 </html>

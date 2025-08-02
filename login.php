@@ -61,6 +61,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <button type="submit">Ingresar</button>
 </form>
 
-<p>¿No tenés cuenta? <a href="registro.php">Registrate</a></p>
+<p>¿No tenés cuenta? <a href="https://lavacraft.loca.lt/registro.php">Registrate</a></p>
 </body>
 </html>
