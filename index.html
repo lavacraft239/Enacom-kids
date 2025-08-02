@@ -1,0 +1,173 @@
+<!DOCTYPE html>          
+<html lang="es">          
+<head>      
+<link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/552/552721.png" />          
+<meta charset="UTF-8" />          
+<meta name="viewport" content="width=device-width, initial-scale=1" />          
+<title>ENACOM Kids - Leyes para TV y Radio FM</title>          
+<style>          
+  /* Reset */          
+  * {          
+    margin: 0; padding: 0; box-sizing: border-box;          
+  }          
+  body {          
+    background: #121212;          
+    color: #e0e0e0;          
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;          
+    min-height: 100vh;          
+    display: flex;          
+    flex-direction: column;          
+    align-items: center;          
+    padding: 2rem 1rem;          
+    overflow-x: hidden;          
+  }          
+  header {          
+    width: 100%;          
+    background: linear-gradient(90deg, #00bcd4, #2196f3);          
+    padding: 1.8rem 2rem;          
+    text-align: center;          
+    font-size: 2.5rem;          
+    font-weight: 700;          
+    color: #fff;          
+    border-radius: 12px;          
+    box-shadow: 0 5px 20px rgba(33, 150, 243, 0.7);          
+    animation: glowHeader 2.5s ease-in-out infinite alternate;          
+    user-select: none;          
+  }          
+  @keyframes glowHeader {          
+    from { text-shadow: 0 0 10px #2196f3, 0 0 30px #00bcd4; }          
+    to { text-shadow: 0 0 20px #00bcd4, 0 0 40px #2196f3; }          
+  }          
+  main {          
+    background: #1e1e1e;          
+    max-width: 900px;          
+    width: 100%;          
+    border-radius: 16px;          
+    padding: 3rem 3.5rem;          
+    margin-top: 2.5rem;          
+    box-shadow: 0 10px 30px rgba(0, 188, 212, 0.8);          
+    animation: fadeInUp 1.8s ease forwards;          
+    opacity: 0;          
+    transform: translateY(40px);          
+  }          
+  @keyframes fadeInUp {          
+    to {          
+      opacity: 1;          
+      transform: translateY(0);          
+    }          
+  }          
+  h1, h2 {          
+    color: #00bcd4;          
+    margin-bottom: 1.5rem;          
+    text-align: center;          
+    letter-spacing: 0.07em;          
+    user-select: none;          
+  }          
+  p {          
+    font-size: 1.15rem;          
+    line-height: 1.6;          
+    margin-bottom: 2rem;          
+    color: #ccc;          
+    text-align: center;          
+    max-width: 700px;          
+  }          
+  ul {          
+    list-style: none;          
+    padding-left: 0;          
+    max-width: 700px;          
+    margin: 0 auto;          
+  }          
+  ul li {          
+    background: #263238;          
+    margin-bottom: 1.3rem;          
+    padding: 1.3rem 1.8rem;          
+    border-radius: 14px;          
+    position: relative;          
+    padding-left: 4rem;          
+    font-size: 1.15rem;          
+    cursor: default;          
+    box-shadow: 0 3px 12px rgba(0, 188, 212, 0.5);          
+    transition: background-color 0.3s ease, transform 0.3s ease;          
+  }          
+  ul li::before {          
+    content: "📻";          
+    position: absolute;          
+    left: 1.3rem;          
+    top: 50%;          
+    transform: translateY(-50%) scale(1);          
+    font-size: 1.7rem;          
+    transition: transform 0.3s ease;          
+    color: #00bcd4;          
+  }          
+  ul li:hover {          
+    background-color: #007c91;          
+    color: #e0f7fa;          
+    transform: scale(1.05);          
+  }          
+  ul li:hover::before {          
+    transform: translateY(-50%) scale(1.3);          
+    color: #80deea;          
+  }          
+  footer {          
+    margin-top: 3rem;          
+    width: 100%;          
+    text-align: center;          
+    padding: 1.2rem;          
+    color: #00bcd4;          
+    font-size: 1rem;          
+    background: #1e1e1e;          
+    border-radius: 12px;          
+    box-shadow: 0 5px 20px rgba(0, 188, 212, 0.7);          
+    user-select: none;          
+  }          
+  /* Responsive */          
+  @media (max-width: 600px) {          
+    main {          
+      padding: 2rem 1.5rem;          
+    }          
+    header {          
+      font-size: 1.8rem;          
+      padding: 1rem 1rem;          
+    }          
+    ul li {          
+      font-size: 1rem;          
+      padding-left: 3rem;          
+    }          
+    ul li::before {          
+      font-size: 1.3rem;          
+      left: 1rem;          
+    }          
+  }          
+</style>          
+</head>          
+<body>          
+<header>ENACOM Kids - Leyes para Canal TV y Radio FM</header>          
+<main>          
+  <h1>¿Qué es un canal de TV o radio FM?</h1>          
+  <p>          
+    Es tu espacio para compartir música, programas y noticias para que otros te escuchen o vean, respetando las reglas para que todo sea legal y sin problemas.          
+  </p>          
+  <h2>Regla principal</h2>          
+  <p><strong>Tu señal no puede superar los <span style="color:#80deea;">10 metros de alcance</span> para no molestar a otras señales.</strong></p>          
+  <h2>10 leyes que debés conocer</h2>          
+<ul>        
+  <li>👨‍👩‍👧 Tenés que tener un adulto responsable que te ayude y autorice a usar el canal.</li>        
+  <li>📡 Usá un transmisor que no tire la señal más lejos de 10 metros. Nada de potencias locas.</li>        
+  <li>🎶 Transmití solo contenido para chicos y familias, nada de groserías ni cosas raras.</li>        
+  <li>🚫 No interferir ni molestar a otras radios o canales con tu señal.</li>        
+  <li>📝 Registrá tu canal en ENACOM Kids para que esté todo en regla.</li>        
+  <li>🛠️ Mantené tu equipo en buen estado y no lo modifiques sin permiso.</li>        
+  <li>🌍 Respetá las normas de convivencia y el medio ambiente usando equipos seguros y sin contaminar.</li>        
+  <li>📻 El mínimo del tamaño de la antena debe ser de 0.5 metros para que funcione bien.</li>        
+  <li>🎛️ No uses música con copyright sin permiso. Mejor usá música libre o hecha por vos.</li>        
+  <li>🎥 Si hacés un canal de TV, que la cámara no apunte a personas sin su permiso.</li>        
+</ul>        
+</main>          
+<footer>© 2025 ENACOM Kids - Proyecto para niños creadores de radios y TV</footer>    
+<div style="text-align: center; margin-top: 2rem;">    
+  <button onclick="window.location.href='registro.php'" style="background: #00bcd4; color: #fff; border: none; padding: 1rem 2rem; font-size: 1.1rem; border-radius: 10px; cursor: pointer; transition: background 0.3s ease;">    
+    📋 Registrá tu canal    
+  </button>    
+</div>          
+</body>          
+</html>
